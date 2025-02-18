@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:iconsax/iconsax.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,6 +13,12 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(title: Text('Flutter Project Tutorial')),
         body: Row(
           children: [
+            Icon(
+              Iconsax.activity5,
+              
+              size: 50,
+              color:Colors.red,
+            ),
             Text(
               "Hi,",
               style: TextStyle(
