@@ -14,32 +14,34 @@ class MyApp extends StatelessWidget {
         body: Row(
           children: [
             Icon(
-              Iconsax.activity5,
-              
+              Icons.star,
               size: 50,
-              color:Colors.red,
+              color:const Color.fromARGB(255, 7, 7, 7),
             ),
-            Text(
-              "Hi,",
-              style: TextStyle(
-                color: Colors.red,
-                fontSize: 30,
-              ),
+            Icon(
+              Icons.star,
+              size: 50,
+              color:const Color.fromARGB(255, 7, 7, 7),
             ),
-            Text(
-              "This is ",
-              style: TextStyle(
-                color: Colors.blue,
-                fontSize: 20,
-              ),
+            Icon(
+              Icons.star,
+              size: 50,
+              color:const Color.fromARGB(255, 7, 7, 7),
             ),
-            Text(
-              "Flutter",
-              style: TextStyle(
-                color: Colors.green,
-                fontSize: 45,
-              ),
-            )
+            Icon(
+              Icons.star,
+              size: 50,
+              color:const Color.fromARGB(255, 7, 7, 7),
+            ),
+            Icon(
+              Icons.star_outline,
+              size: 50,
+              color:const Color.fromARGB(255, 0, 0, 0),
+              
+            ),
+            
+            
+            
           ],
         ),
       ),
